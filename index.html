@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Soundboard</title><!--Title will be in broswer tab-->
+	<meta name="viewport" content="width=device-width", initial-scale="1.0">
+	<link rel="stylesheet" type="text/css" href="Alan Partridge Soundboard Advanced.css"><!-- Link to external CSS file -->
+</head>
+<body>
+    <h1>Alan Partridge Soundboard</h1><!-- Heading for soundboard -->
+    <p>Listen to Alan Partridge's famous catchphrases</p><!-- small Description of soundboard -->
+	<!-- Container for the text-to-speech feature -->
+	<div class="heading">
+		<h2>Text-to-Speech</h2>
+	<section class="text2sp"><div>
+		<input type= "text" id="text-to-speech" placeholder= "Enter text to speak" />
+   </div>
+	<div class="text2spbutton">
+		<button type= "text" onclick="textToAudio()"> Speak </button>
+	</div>
+   </section>
+	<div class="soundboard"><!-- Container for sound buttons -->
+		<div class="sound"><!-- Sound buttons with name and onclick function to play sound -->
+			<button class="button" onclick="playSound('sound1')">
+				<span class="name">Ah- ha</span> <!-- Name to locate the file-->
+			</button>
+		</div>
+		<div class="sound">
+			<button class="button" onclick="playSound('sound2')">
+				<span class="name">Back of the net</span>
+			</button>
+		</div>
+		<div class="sound">
+			<button class="button" onclick="playSound('sound3')">
+				<span class="name">Bang Out Of Order</span>
+			</button>
+		</div>
+		<div class="sound">
+			<button class="button" onclick="playSound('sound4')">
+				<span class="name">Dan</span>
+			</button>
+		</div>
+		<div class="sound">
+			<button class="button" onclick="playSound('sound5')">
+				<span class="name">Goal</span>
+			</button>
+		</div>
+		<div class="sound">
+			<button class="button" onclick="playSound('sound6')">
+				<span class="name">Hello Partridge</span>
+			</button>
+		</div>
+		<div class="sound">
+			<button class="button" onclick="playSound('sound7')">
+				<span class="name">Jurassic Park</span>
+			</button>
+		</div>
+		<div class="sound">
+			<button class="button" onclick="playSound('sound8')">
+				<span class="name">Kiss My Face</span>
+			</button>
+		</div>
+		<div class="sound">
+			<button class="button" onclick="playSound('sound9')">
+				<span class="name">smell my Cheese</span>
+			</button>
+		</div>
+		<div class="sound">
+			<button class="button" onclick="playSound('sound10')">
+				<span class="name">Striker</span>
+			</button>
+		</button>
+	    </div>
+		<div class="sound">
+			<button class="button" onclick="playSound('sound11')">
+				<span class="name">ah come on</span>
+			</button>
+		</div>
+		<div class="sound">
+			<button class="button" onclick="playSound('sound12')">
+				<span class="name">aboot</span>
+			</button>
+		</div>
+		<div class="soundboard-arrows">
+			<div class="left-arrow">&lt;</div>
+			<div class="right-arrow">&gt;</div>
+		  </div>
+
+	</div>
+	
+	<!-- Audio files for each sound button -->
+	<audio id="sound1" src="./sounds/sound_Ahha.mp3"></audio>
+	<audio id="sound2" src="./sounds/sound_Back of the net.mp3"></audio>
+	<audio id="sound3" src="./sounds/sound_Bang Out Of Order.mp3"></audio>
+    <audio id="sound4" src="./sounds/sound_Dan.mp3"></audio>
+    <audio id="sound5" src="./sounds/sound_Goal.mp3"></audio>
+    <audio id="sound6" src="./sounds/sound_Hello patridge.mp3"></audio>
+    <audio id="sound7" src="./sounds/sound_Jurrasicpark.mp3"></audio>
+    <audio id="sound8" src="./sounds/sound_Kiss my Face.mp3"></audio>
+    <audio id="sound9" src="./sounds/sound_Smell My Cheese.mp3"></audio>
+	<audio id="sound10" src="./sounds/sound_striker.mp3"></audio>
+	<audio id="sound11" src="./sounds/sound_ah come on.mp3"></audio>
+	<audio id="sound12" src="./sounds/sound_aboot.mp3"></audio>
+	<!-- Link to external JavaScript file -->
+	<script type="text/javascript" src="Alan Partridge Soundboard Advanced.js"></script>
+	<!--Footer of the page-->
+    <footer>
+         Made by Asif
+    </footer>
+</body>
+</html>
+
+
+   

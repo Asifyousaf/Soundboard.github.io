@@ -1,0 +1,163 @@
+/* Set the font family and background image of the body */
+body{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-image: url(https://i.imgur.com/7N13XMa.jpg); /* background image */
+  background-image: url(./Background-image/Background.jpg); /* alternative background image in case first doesn't work */
+}
+
+/* Displaying the sound buttons in a flexible wrap container */
+.soundboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+  max-width: 1300px;
+  margin:0 auto;
+}
+
+/* Styling the individual sound buttons */
+.sound {
+  width: 30%;
+  margin-bottom: 30px;
+}
+
+/* Styling the header - the size, decoration, and color */
+h1{
+  font-size: 40px;
+  text-decoration: underline;
+  color: #ffffff;
+  text-align: left;
+  padding-top: 45px;
+  padding-left: 385px;
+}
+
+/* Styling the paragraph */
+p{
+  font-size: 20px;
+  color: #ffffff;
+  text-align: left;
+  margin: 0;
+  padding-bottom: 20px;
+  padding-left: 410px;
+}
+
+/* Styling the sound button */
+.button {
+  font-weight: bold;
+  width: 330px;
+  height: 125px;
+  position: relative;
+  display:block;
+  padding: 20px;
+  font-size: 24px;
+  background-color: #0044ff;
+  color: rgb(255, 255, 255);
+  border: solid rgb(255, 255, 255);
+  border-radius: 25px;
+  cursor: pointer;
+  transition:0.2s ease-in-out;
+}
+
+/* Styling the hover effect of the sound button */
+.button:hover {
+  color: black;
+  background-color: #ffffff;
+}
+
+/* Styling the footer */
+footer{
+  text-decoration: underline;
+  padding-top:10px ;
+  font-size: 21px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #ffffff;
+  text-align: center;
+  position: absolute;
+}
+
+/* Styling the text-to-speech input and button */
+.text2sp {
+  width: 600px; /* adjust width as needed */
+  float: right; /* align to right */
+  margin-right: 80px; /* add some margin to the right */
+}
+#text-to-speech {
+  float: right;
+  color: #ffffff;
+  background-color: #0044ff;
+  width: 405px;
+  height: 150px;
+  font-size: 20px;
+}
+/* styling for  the speak button for text to speech*/
+button {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  float: right;
+  font-size: 20px;
+  color: white;
+  background-color: #ff4080;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Styling the heading in the typing area for text to speech */
+::placeholder{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+/* Adding margin to align the button */
+.text2spbutton{
+  margin-top: 156px;
+}
+
+/* Styling the left and right arrows for audio playback */
+.right-arrow{
+  margin-left:1200px;
+}
+/* Styling the left arrow */
+.left-arrow{
+  left: 24px;
+  }
+  
+  /* Styling the right and left arrows */
+  .right-arrow ,.left-arrow{
+  background-color: #0044ff;
+  color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-130%);
+  border-radius: 50%;
+  }
+  
+  /* Styling the duration of the sound */
+  .duration {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0px;
+  font-size: 16px;
+  color: #fff;
+  padding: 5px 10px;
+  }
+  
+  /* Styling the header 2 */
+  h2{
+  padding-left: 81%;
+  font-size: 20px;
+  text-decoration: underline;
+  color: #ffffff;
+  }
+
